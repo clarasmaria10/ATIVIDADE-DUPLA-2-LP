@@ -9,33 +9,34 @@ precos = []
 
 print('== SABOR DA CASA ==')
 print(' 1 - Picanha ..... R$25,00\n 2 - Lasanha ..... R$20,00\n 3 - Strogonoff ..... R$18,00\n 4 - Bife Acebolado ..... R$15,00\n 5 - Pão com ovo ..... R$5,00')
+print()
 
 while True:
     pedido = int(input('Digite o número do prato desejado: '))
     
     match pedido:
         case 1:
-            print('Prato selecionado: Picanha ... R$25,00')
+            print('\nPrato selecionado: Picanha ... R$25,00')
             prato = 'PICANHA'
             preco = 25
         
         case 2:
-            print('Prato selecionado: Lasanha ... R$20,00')
+            print('\nPrato selecionado: Lasanha ... R$20,00')
             prato = 'LASANHA'
             preco = 20
         
         case 3:
-            print('Prato selecionado: Strogonoff ... R$18,00')
+            print('\nPrato selecionado: Strogonoff ... R$18,00')
             prato = 'STROGONOFF'
             preco = 18
         
         case 4:
-            print('Prato selecionado: Bife acebolado ... R$15,00')
+            print('\nPrato selecionado: Bife acebolado ... R$15,00')
             prato = 'BIFE ACEBOLADO'
             preco = 15
         
         case 5:
-            print('Prato selecionado: Pão com ovo ... R$5,00')
+            print('\nPrato selecionado: Pão com ovo ... R$5,00')
             prato = 'PÃO COM OVO'
             preco = 5
         
@@ -48,6 +49,7 @@ while True:
 
     deseja_continuar = True
     while True:
+        print('=============')
         resposta = (input("Deseja pedir mais algum prato? (S/N): ").strip().upper())
         if resposta == "S":
             break
@@ -60,7 +62,7 @@ while True:
     if not deseja_continuar:
         break
 
-nome = input('Nome para retirada: ')
+nome = input('\nNome para retirada: ')
 
 os.system('cls || clear')
 
