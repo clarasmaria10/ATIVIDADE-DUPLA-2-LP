@@ -15,22 +15,27 @@ while True:
     
     match pedido:
         case 1:
+            print('Prato selecionado: Picanha ... R$25,00')
             prato = 'PICANHA'
             preco = 25
         
         case 2:
+            print('Prato selecionado: Lasanha ... R$20,00')
             prato = 'LASANHA'
             preco = 20
         
         case 3:
+            print('Prato selecionado: Strogonoff ... R$18,00')
             prato = 'STROGONOFF'
             preco = 18
         
         case 4:
+            print('Prato selecionado: Bife acebolado ... R$15,00')
             prato = 'BIFE ACEBOLADO'
             preco = 15
         
         case 5:
+            print('Prato selecionado: Pão com ovo ... R$5,00')
             prato = 'PÃO COM OVO'
             preco = 5
         
